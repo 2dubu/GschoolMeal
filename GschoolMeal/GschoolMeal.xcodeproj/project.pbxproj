@@ -18,6 +18,7 @@
 		18BA6C7027DF0C810031405D /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BA6C6F27DF0C810031405D /* StartViewController.swift */; };
 		18BA6C7227DF0E590031405D /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BA6C7127DF0E590031405D /* Menu.swift */; };
 		18BA6C7527DF0EE20031405D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18BA6C7427DF0EE20031405D /* InfoPlist.strings */; };
+		61772B6BFEF0D3CF51E7C27B /* Pods_GschoolMeal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DC7AF724647E43BE0B1985 /* Pods_GschoolMeal.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,9 @@
 		18BA6C6F27DF0C810031405D /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		18BA6C7127DF0E590031405D /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		18BA6C7427DF0EE20031405D /* InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		374ACCAE4F870F91FEC1EFCD /* Pods-GschoolMeal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GschoolMeal.release.xcconfig"; path = "Target Support Files/Pods-GschoolMeal/Pods-GschoolMeal.release.xcconfig"; sourceTree = "<group>"; };
+		D4DC7AF724647E43BE0B1985 /* Pods_GschoolMeal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GschoolMeal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2C7FEB775B17E4A42CB4303 /* Pods-GschoolMeal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GschoolMeal.debug.xcconfig"; path = "Target Support Files/Pods-GschoolMeal/Pods-GschoolMeal.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61772B6BFEF0D3CF51E7C27B /* Pods_GschoolMeal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +57,8 @@
 			children = (
 				18BA6C5627DF0BE40031405D /* GschoolMeal */,
 				18BA6C5527DF0BE40031405D /* Products */,
+				E0A4895F27031EDF954BA873 /* Pods */,
+				93A9B23774AB671AA7817B92 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,6 +89,24 @@
 			path = GschoolMeal;
 			sourceTree = "<group>";
 		};
+		93A9B23774AB671AA7817B92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4DC7AF724647E43BE0B1985 /* Pods_GschoolMeal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0A4895F27031EDF954BA873 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2C7FEB775B17E4A42CB4303 /* Pods-GschoolMeal.debug.xcconfig */,
+				374ACCAE4F870F91FEC1EFCD /* Pods-GschoolMeal.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,9 +114,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18BA6C6827DF0BE60031405D /* Build configuration list for PBXNativeTarget "GschoolMeal" */;
 			buildPhases = (
+				1EC3CEE5E9B0C133A6FFDB25 /* [CP] Check Pods Manifest.lock */,
 				18BA6C5027DF0BE40031405D /* Sources */,
 				18BA6C5127DF0BE40031405D /* Frameworks */,
 				18BA6C5227DF0BE40031405D /* Resources */,
+				C3BB49E81F607E0F6AC006FD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +176,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1EC3CEE5E9B0C133A6FFDB25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GschoolMeal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3BB49E81F607E0F6AC006FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GschoolMeal/Pods-GschoolMeal-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GschoolMeal/Pods-GschoolMeal-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GschoolMeal/Pods-GschoolMeal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		18BA6C5027DF0BE40031405D /* Sources */ = {
@@ -304,6 +373,7 @@
 		};
 		18BA6C6927DF0BE60031405D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2C7FEB775B17E4A42CB4303 /* Pods-GschoolMeal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -332,6 +402,7 @@
 		};
 		18BA6C6A27DF0BE60031405D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 374ACCAE4F870F91FEC1EFCD /* Pods-GschoolMeal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

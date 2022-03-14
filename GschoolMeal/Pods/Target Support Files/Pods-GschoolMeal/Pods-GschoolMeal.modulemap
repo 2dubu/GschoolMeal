@@ -1,0 +1,6 @@
+framework module Pods_GschoolMeal {
+  umbrella header "Pods-GschoolMeal-umbrella.h"
+
+  export *
+  module * { export * }
+}
