@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		18BA6C5827DF0BE40031405D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BA6C5727DF0BE40031405D /* AppDelegate.swift */; };
 		18BA6C5A27DF0BE40031405D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BA6C5927DF0BE40031405D /* SceneDelegate.swift */; };
-		18BA6C5C27DF0BE40031405D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BA6C5B27DF0BE40031405D /* ViewController.swift */; };
+		18BA6C5C27DF0BE40031405D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BA6C5B27DF0BE40031405D /* MainViewController.swift */; };
 		18BA6C5F27DF0BE40031405D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BA6C5D27DF0BE40031405D /* Main.storyboard */; };
 		18BA6C6127DF0BE60031405D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18BA6C6027DF0BE60031405D /* Assets.xcassets */; };
 		18BA6C6427DF0BE60031405D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BA6C6227DF0BE60031405D /* LaunchScreen.storyboard */; };
+		18BA6C6C27DF0C250031405D /* BGM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18BA6C6B27DF0C250031405D /* BGM.mp3 */; };
+		18BA6C6E27DF0C540031405D /* DeviceConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BA6C6D27DF0C540031405D /* DeviceConfig.swift */; };
+		18BA6C7027DF0C810031405D /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BA6C6F27DF0C810031405D /* StartViewController.swift */; };
+		18BA6C7227DF0E590031405D /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BA6C7127DF0E590031405D /* Menu.swift */; };
+		18BA6C7527DF0EE20031405D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18BA6C7427DF0EE20031405D /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		18BA6C5427DF0BE40031405D /* GschoolMeal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GschoolMeal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18BA6C5727DF0BE40031405D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18BA6C5927DF0BE40031405D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		18BA6C5B27DF0BE40031405D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18BA6C5B27DF0BE40031405D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		18BA6C5E27DF0BE40031405D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18BA6C6027DF0BE60031405D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18BA6C6327DF0BE60031405D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18BA6C6527DF0BE60031405D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18BA6C6B27DF0C250031405D /* BGM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BGM.mp3; sourceTree = "<group>"; };
+		18BA6C6D27DF0C540031405D /* DeviceConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceConfig.swift; sourceTree = "<group>"; };
+		18BA6C6F27DF0C810031405D /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		18BA6C7127DF0E590031405D /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		18BA6C7427DF0EE20031405D /* InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +66,17 @@
 		18BA6C5627DF0BE40031405D /* GschoolMeal */ = {
 			isa = PBXGroup;
 			children = (
+				18BA6C6B27DF0C250031405D /* BGM.mp3 */,
 				18BA6C5727DF0BE40031405D /* AppDelegate.swift */,
 				18BA6C5927DF0BE40031405D /* SceneDelegate.swift */,
-				18BA6C5B27DF0BE40031405D /* ViewController.swift */,
+				18BA6C6D27DF0C540031405D /* DeviceConfig.swift */,
+				18BA6C6F27DF0C810031405D /* StartViewController.swift */,
+				18BA6C5B27DF0BE40031405D /* MainViewController.swift */,
+				18BA6C7127DF0E590031405D /* Menu.swift */,
 				18BA6C5D27DF0BE40031405D /* Main.storyboard */,
 				18BA6C6027DF0BE60031405D /* Assets.xcassets */,
 				18BA6C6227DF0BE60031405D /* LaunchScreen.storyboard */,
+				18BA6C7427DF0EE20031405D /* InfoPlist.strings */,
 				18BA6C6527DF0BE60031405D /* Info.plist */,
 			);
 			path = GschoolMeal;
@@ -128,6 +143,8 @@
 				18BA6C6427DF0BE60031405D /* LaunchScreen.storyboard in Resources */,
 				18BA6C6127DF0BE60031405D /* Assets.xcassets in Resources */,
 				18BA6C5F27DF0BE40031405D /* Main.storyboard in Resources */,
+				18BA6C6C27DF0C250031405D /* BGM.mp3 in Resources */,
+				18BA6C7527DF0EE20031405D /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18BA6C5C27DF0BE40031405D /* ViewController.swift in Sources */,
+				18BA6C7227DF0E590031405D /* Menu.swift in Sources */,
+				18BA6C7027DF0C810031405D /* StartViewController.swift in Sources */,
+				18BA6C5C27DF0BE40031405D /* MainViewController.swift in Sources */,
 				18BA6C5827DF0BE40031405D /* AppDelegate.swift in Sources */,
 				18BA6C5A27DF0BE40031405D /* SceneDelegate.swift in Sources */,
+				18BA6C6E27DF0C540031405D /* DeviceConfig.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
