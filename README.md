@@ -35,7 +35,5 @@
 
 ---
 
-#### 앱 아이콘 / 런치스크린
-<img src="https://firebasestorage.googleapis.com/v0/b/gschoolmeal.appspot.com/o/appIcon.png?alt=media&token=52567619-43eb-4fb6-a676-dc99c76c7bbe" style="zoom:33%;" />
-
-<img src="https://firebasestorage.googleapis.com/v0/b/gschoolmeal.appspot.com/o/launchScreen.png?alt=media&token=7419651e-d49f-4d29-82e5-d3bc481b8606" style="zoom:33%;" />
+#### 앱 아이콘
+<img src="https://firebasestorage.googleapis.com/v0/b/gschoolmeal.appspot.com/o/appIcon.png?alt=media&token=52567619-43eb-4fb6-a676-dc99c76c7bbe" width="300" height="300">
