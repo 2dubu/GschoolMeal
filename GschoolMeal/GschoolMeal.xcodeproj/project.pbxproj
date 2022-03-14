@@ -18,6 +18,7 @@
 		18BA6C7027DF0C810031405D /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BA6C6F27DF0C810031405D /* StartViewController.swift */; };
 		18BA6C7227DF0E590031405D /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BA6C7127DF0E590031405D /* Menu.swift */; };
 		18BA6C7527DF0EE20031405D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18BA6C7427DF0EE20031405D /* InfoPlist.strings */; };
+		18BA6C7927DF11040031405D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18BA6C7827DF11040031405D /* GoogleService-Info.plist */; };
 		61772B6BFEF0D3CF51E7C27B /* Pods_GschoolMeal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DC7AF724647E43BE0B1985 /* Pods_GschoolMeal.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		18BA6C6F27DF0C810031405D /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		18BA6C7127DF0E590031405D /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		18BA6C7427DF0EE20031405D /* InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		18BA6C7827DF11040031405D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		374ACCAE4F870F91FEC1EFCD /* Pods-GschoolMeal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GschoolMeal.release.xcconfig"; path = "Target Support Files/Pods-GschoolMeal/Pods-GschoolMeal.release.xcconfig"; sourceTree = "<group>"; };
 		D4DC7AF724647E43BE0B1985 /* Pods_GschoolMeal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GschoolMeal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C7FEB775B17E4A42CB4303 /* Pods-GschoolMeal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GschoolMeal.debug.xcconfig"; path = "Target Support Files/Pods-GschoolMeal/Pods-GschoolMeal.debug.xcconfig"; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				18BA6C6227DF0BE60031405D /* LaunchScreen.storyboard */,
 				18BA6C7427DF0EE20031405D /* InfoPlist.strings */,
 				18BA6C6527DF0BE60031405D /* Info.plist */,
+				18BA6C7827DF11040031405D /* GoogleService-Info.plist */,
 			);
 			path = GschoolMeal;
 			sourceTree = "<group>";
@@ -103,7 +106,6 @@
 				F2C7FEB775B17E4A42CB4303 /* Pods-GschoolMeal.debug.xcconfig */,
 				374ACCAE4F870F91FEC1EFCD /* Pods-GschoolMeal.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -172,6 +174,7 @@
 				18BA6C5F27DF0BE40031405D /* Main.storyboard in Resources */,
 				18BA6C6C27DF0C250031405D /* BGM.mp3 in Resources */,
 				18BA6C7527DF0EE20031405D /* InfoPlist.strings in Resources */,
+				18BA6C7927DF11040031405D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
