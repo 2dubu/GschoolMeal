@@ -4,7 +4,7 @@
 
 #### 앱스토어 링크
 
---
+---
 
 #### 앱 사용법<br/>
 
@@ -33,9 +33,9 @@
 디자인 : 김수현 <br>
 마크다운 : 김수현
 
---
+---
 
 #### 앱 아이콘 / 런치스크린
-<img src="https://firebasestorage.googleapis.com/v0/b/gschoolmeal.appspot.com/o/appIcon.png?alt=media&token=52567619-43eb-4fb6-a676-dc99c76c7bbe">
+<img src="https://firebasestorage.googleapis.com/v0/b/gschoolmeal.appspot.com/o/appIcon.png?alt=media&token=52567619-43eb-4fb6-a676-dc99c76c7bbe"width="400">
 
-<img src="https://firebasestorage.googleapis.com/v0/b/gschoolmeal.appspot.com/o/launchScreen.png?alt=media&token=7419651e-d49f-4d29-82e5-d3bc481b8606">
+<img src="https://firebasestorage.googleapis.com/v0/b/gschoolmeal.appspot.com/o/launchScreen.png?alt=media&token=7419651e-d49f-4d29-82e5-d3bc481b8606"width="400">
