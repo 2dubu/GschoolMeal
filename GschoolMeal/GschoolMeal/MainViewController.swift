@@ -131,6 +131,7 @@ class MainViewController: UIViewController, FSCalendarDataSource {
         
         notiContent.title = "점심시간!"
         notiContent.body = "오늘의 점심 메뉴를 확인해보세요."
+        notiContent.sound = .default
         let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: true)
         let request = UNNotificationRequest(identifier: "LocalLunchNoti", content: notiContent, trigger: trigger)
         
@@ -149,6 +150,7 @@ class MainViewController: UIViewController, FSCalendarDataSource {
         
         notiContent.title = "저녁시간!"
         notiContent.body = "오늘의 저녁 메뉴를 확인해보세요."
+        notiContent.sound = .default
         let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: true)
         let request = UNNotificationRequest(identifier: "LocalDinnerNoti", content: notiContent, trigger: trigger)
         
